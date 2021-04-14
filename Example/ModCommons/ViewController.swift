@@ -7,10 +7,14 @@
 //
 
 import UIKit
+import ModCommons
+
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var stack: UIStackView!
+    
+    @IBOutlet weak var button: UIButton!
     
     
     override func viewDidLoad() {
@@ -24,11 +28,13 @@ class ViewController: UIViewController {
         myColor.backgroundColor = UIColor(red: 0.55, green:0.59, blue:0.37, alpha: 1)
         stack.addArrangedSubview(myColor)
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
     }
+
 }
 
 
