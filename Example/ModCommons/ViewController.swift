@@ -10,15 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var stack: UIStackView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setupUI()
+        
+    }
+   
+    func setupUI() {
+        let myColor = HeaderView()
+        myColor.backgroundColor = UIColor(red: 0.55, green:0.59, blue:0.37, alpha: 1)
+        stack.addArrangedSubview(myColor)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
-
 }
+
+
 

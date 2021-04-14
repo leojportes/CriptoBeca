@@ -3,9 +3,9 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'ModCommons_Example' do
-  pod 'ModCommons', :path => '../'
-  pod 'ModCommons', :git => 'https://github.com/leojportes/CriptoBeca.git'
-  
+#  pod 'ModCommons', :path => '../'
+  pod 'ModCommons', :git => 'https://github.com/leojportes/CriptoBeca'
+  pod 'SwiftLint'
   
 
   target 'ModCommons_Tests' do

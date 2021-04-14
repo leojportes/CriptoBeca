@@ -14,6 +14,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		C1D53B122627335C00853588 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D53B112627335C00853588 /* HeaderView.xib */; };
+		C1D53B162627339900853588 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D53B152627339900853588 /* HeaderView.swift */; };
 		F5CF6B18247B136CF3365761 /* Pods_ModCommons_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05413EBF986EC47796F7956A /* Pods_ModCommons_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,9 +44,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		81571DF88A95D0C5A14FEFA5 /* Pods-ModCommons_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModCommons_Example.debug.xcconfig"; path = "Target Support Files/Pods-ModCommons_Example/Pods-ModCommons_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C927DC943EF425B39A4C1F28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D092E70FF2138565119AB723 /* ModCommons.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ModCommons.podspec; path = ../ModCommons.podspec; sourceTree = "<group>"; };
-		DAAD3936A1A4A306BF4FB021 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C1D53B112627335C00853588 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		C1D53B152627339900853588 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C927DC943EF425B39A4C1F28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D092E70FF2138565119AB723 /* ModCommons.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ModCommons.podspec; path = ../ModCommons.podspec; sourceTree = "<group>"; };
+		DAAD3936A1A4A306BF4FB021 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E82A872E8C7D45A95EBCD4C6 /* Pods-ModCommons_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModCommons_Tests.release.xcconfig"; path = "Target Support Files/Pods-ModCommons_Tests/Pods-ModCommons_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FA865B0B6DB03F764F585B7F /* Pods-ModCommons_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModCommons_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ModCommons_Tests/Pods-ModCommons_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +103,8 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				C1D53B112627335C00853588 /* HeaderView.xib */,
+				C1D53B152627339900853588 /* HeaderView.swift */,
 			);
 			name = "Example for ModCommons";
 			path = ModCommons;
@@ -156,7 +162,6 @@
 				FA865B0B6DB03F764F585B7F /* Pods-ModCommons_Tests.debug.xcconfig */,
 				E82A872E8C7D45A95EBCD4C6 /* Pods-ModCommons_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -172,6 +177,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				F99E78AFB84A10E36A75DF4A /* [CP] Embed Pods Frameworks */,
+				C1D53AEA2627292B00853588 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -228,6 +234,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -250,6 +257,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				C1D53B122627335C00853588 /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +313,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ModCommons_Tests/Pods-ModCommons_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C1D53AEA2627292B00853588 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n\n${PODS_ROOT}/SwiftLint/swiftlint\n\nelse\n\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n\nfi\n";
+		};
 		DF0703337D4D0B312139CA8E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				C1D53B162627339900853588 /* HeaderView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
