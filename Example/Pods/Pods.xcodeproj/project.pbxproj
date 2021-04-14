@@ -114,6 +114,8 @@
 		C051C0411627BD5FCDA031782EB1F716 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D9C01FFC4E993639855039D3CD15721 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0C98C8C7D07E1598F20EE2F0539197D /* NMBExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A7861C48E7E199D0E5A25ABFE2FB2 /* NMBExpectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		C1D53B9326274E1100853588 /* HeaderCores.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D53B9226274E1100853588 /* HeaderCores.swift */; };
+		C1D53BE326275A3C00853588 /* CriptoMoeda.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D53BE226275A3C00853588 /* CriptoMoeda.swift */; };
+		C1D53C052627707F00853588 /* ApiRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D53C042627707F00853588 /* ApiRest.swift */; };
 		C903AEFEEB4E73644A03FB8285543107 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765018C72042ECF5D0B88B38389EA0E2 /* BeEmpty.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		C979EEB0159A65246F6BD2C906A8ADB7 /* BeVoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983AF86F472E4B473B48063142B5DE25 /* BeVoid.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		C99BBC3F70E056CB6A3CC0516318939D /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D64F14654F53B058D69AC51E5D28152 /* AssertionDispatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -297,6 +299,8 @@
 		BAE263041362D074978BB3B577DF0A05 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD523E42D739D8FFCB8BD864271D0906 /* ModCommons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModCommons-umbrella.h"; sourceTree = "<group>"; };
 		C1D53B9226274E1100853588 /* HeaderCores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCores.swift; sourceTree = "<group>"; };
+		C1D53BE226275A3C00853588 /* CriptoMoeda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriptoMoeda.swift; sourceTree = "<group>"; };
+		C1D53C042627707F00853588 /* ApiRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRest.swift; sourceTree = "<group>"; };
 		C2E21E858FD5DECD52EBE9F6F57CB277 /* Pods-ModCommons_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ModCommons_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C2FE905E68F953324E5578F34475727B /* CwlCatchBadInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchBadInstruction.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlCatchBadInstruction.swift; sourceTree = "<group>"; };
 		C34EE90CE691CB546617052853B27278 /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nimble.modulemap; sourceTree = "<group>"; };
@@ -461,7 +465,9 @@
 		3D3C7A27C10EA93EDD271398F4881E34 /* ModCommons */ = {
 			isa = PBXGroup;
 			children = (
+				C1D53BE226275A3C00853588 /* CriptoMoeda.swift */,
 				C1D53B9226274E1100853588 /* HeaderCores.swift */,
+				C1D53C042627707F00853588 /* ApiRest.swift */,
 				AE8C6C631ECC14F0FB55CC63B53EDFDF /* Support Files */,
 			);
 			path = ModCommons;
@@ -927,8 +933,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D53C052627707F00853588 /* ApiRest.swift in Sources */,
 				C1D53B9326274E1100853588 /* HeaderCores.swift in Sources */,
 				28A1881296FD133D0477CBEE7F612CA2 /* ModCommons-dummy.m in Sources */,
+				C1D53BE326275A3C00853588 /* CriptoMoeda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
